@@ -1,0 +1,20 @@
+@media only screen and (max-width: 768px) {
+    body {
+        overflow: auto;
+    }
+    #hero-image,
+    #trust-pilot,
+    #down-arrow {
+        display: none;
+    }
+    #info-passage {
+        justify-content: flex-start;
+    }
+    #content {
+        --width: 100%
+    }
+    #title {
+        font-size: clamp(26px, 3vw, 32px);
+        line-height: clamp(29px, 3vw, 32px);
+    }
+}
